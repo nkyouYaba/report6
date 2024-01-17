@@ -25,6 +25,7 @@ public class Battle {
         blastoise.skills.add(new Skill("がんせきふうじ", "物理", rock, 60));
         blastoise.skills.add(new Skill("じしん", "物理", ground, 100));
 
-        attack(charizard, blastoise);
+        Skill skill = new Skill(null, null, nothing, nothing);
+        skill.attack(charizard, charizard.skills.get(0), blastoise);
     }
 }
