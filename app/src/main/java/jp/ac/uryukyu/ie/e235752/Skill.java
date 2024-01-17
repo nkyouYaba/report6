@@ -6,7 +6,7 @@ public class Skill {
     int attackAmount;
     int attackType;
 
-    Skill(String name, String skillPattern, int attackType, int attackAmount) {
+    public Skill(String name, String skillPattern, int attackType, int attackAmount) {
         this.name = name;
         this.skillPattern = skillPattern;
         this.attackType = attackType;
