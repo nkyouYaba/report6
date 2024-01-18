@@ -2,16 +2,6 @@ import jp.ac.uryukyu.ie.e235752.*;
 
 public class Battle {
     public static void main(String[] args) {
-        int fire = 1;
-        int flying = 2;
-        int water = 3;
-        int electric = 4;
-        int grass = 5;
-        int doragon = 6;
-        int steel = 7;
-        int rock = 8;
-        int ground = 9;
-        int nothing = 0;
 
         Pokemon charizard = new Pokemon("リザードン", fire, flying, 153, 104, 98, 129, 105, 120);
         charizard.skills.add(new Skill("かえんほうしゃ", "特殊", fire, 90));
