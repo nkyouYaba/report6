@@ -1,5 +1,17 @@
 package jp.ac.uryukyu.ie.e235752;
-
+/**
+ * タイプのクラス
+ * @param nothing なしタイプ、タイプが一つのポケモンに使用する
+ * @param fire ほのおタイプ
+ * @param water　みずタイプ
+ * @param grass　くさタイプ
+ * @param electric　でんきタイプ
+ * @param ground　くさタイプ
+ * @param flying　ひこうタイプ
+ * @param rock　いわタイプ
+ * @param dragon　ドラゴンタイプ
+ * @param steel　はがねタイプ
+ */
 public class Type {
     public static final String nothing = "なし";
     public static final String fire = "ほのお";

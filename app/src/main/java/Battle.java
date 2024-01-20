@@ -25,6 +25,5 @@ public class Battle {
         skill.attack(blastoise, blastoise.skills.get(1), charizard);
         skill.attack(blastoise, blastoise.skills.get(2), charizard);
         skill.attack(blastoise, blastoise.skills.get(3), charizard);
-        
     }
 }
